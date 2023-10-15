@@ -24,6 +24,7 @@
 }
 .skill__desc {
     width: 50%;
+    margin-left:  50%;
 }
 .skill__desc span {
     font-size: 5vw;
@@ -37,11 +38,13 @@
     text-decoration: underline;
     text-underline-position: under;
     margin-bottom: 1vw;
+    
 }
 .skill__desc p {
     margin-bottom: 30vh;
     font-size: 1.1rem;
 }
+
 @media (max-width: 800px){
     .slkll__inner {
         flex-direction: column;
@@ -56,6 +59,7 @@
     }
     .skill__desc {
         width: 100%;
+        margin-left:  50%;
     }
     .skill__desc span {
         font-size: 20vw;
